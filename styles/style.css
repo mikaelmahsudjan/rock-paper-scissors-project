@@ -1,0 +1,135 @@
+body{
+    display:block;
+    text-align:center;
+    width: 700px;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+main {
+   height: 610px;
+}
+
+header {
+    border: 2px solid;
+    margin-bottom: 75px;
+}
+
+.user-gameplay {
+   display: table-caption;  
+}
+
+.computer-gameplay {
+   display: table;
+   position: relative;
+   bottom: 735px;
+   left: 555px;
+   margin-top: 38px;
+}
+
+
+#scoreboard {
+   position: relative;
+   bottom: 600px;
+   width: 100px;
+   height: 95px;
+   left: 310px;
+   border: solid 1px;
+   margin-top: 20px;
+}
+
+#roundResults {
+   position: relative;
+   bottom: -150px;
+   width: 200px;
+   margin-left: -50px;
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.score {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 36px;  
+}
+
+
+#scoreboard h3 {
+   font-size: 30px;
+   margin-bottom: 0;
+   margin-top: 17px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#rock {
+    background:url(../images/rock.jpg) no-repeat;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 142px;
+}
+
+#paper {
+    background: url(../images/paper.png) no-repeat;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 142px;
+}
+
+#scissors {
+    background: url(../images/scissors.png) no-repeat;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 152px;
+    height: 175px;
+}
+
+#rock:hover,#paper:hover,#scissors:hover {
+    cursor: pointer;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+#rock:active,#paper:active,#scissors:active {
+    cursor: pointer;
+    border: solid 1px rgb(2, 211, 96);
+}
+
+#rock:visited,#paper:visited,#scissors:visited {
+    cursor: pointer;
+    border: none;
+}
+
+#rock:focus,#paper:focus,#scissors:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+#comp-choice {
+    background:url(../images/question-mark.png) no-repeat;
+    cursor: pointer;
+    border: 1px solid rgba(103, 103, 103, 0.2);
+    width: 150px;
+    height: 142px;
+    transform: translate3d(0px, 148px, 0px);
+}
+
+#comp-choice:focus {
+    outline: none;
+}
+
+footer {
+    position: relative;
+    padding-top: 105px;
+}
